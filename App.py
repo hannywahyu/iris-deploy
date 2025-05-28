@@ -13,7 +13,7 @@ import numpy as np
 import pickle
 from sklearn.datasets import load_iris
 
-st.set_page_config(page_title="Iris Dashboard App", layout="centered')
+st.set_page_config(page_title="Iris Dashboard App", layout="centered")
 st.sidebar.header("Dashboard")
 
 st.title("Selamat datang di Aplikasi")
