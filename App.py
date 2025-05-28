@@ -90,9 +90,3 @@ elif page == "About Naive Bayes":
     #### Assumption:
     Features are **conditionally independent** given the class.
     """)
-
-### 🧠 Notes
-- Save your model as `model.pkl` using: ^
-  ```python
-  import pickle
-  pickle.dump(your_model, open("model.pkl", "wb"))
