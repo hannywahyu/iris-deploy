@@ -13,6 +13,8 @@ import numpy as np
 import pickle
 from sklearn.datasets import load_iris
 
+st.title("Hello, world!")
+
 # Load model
 with open("model.pkl", "rb") as f:
     model = pickle.load(f)
