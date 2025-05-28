@@ -51,8 +51,7 @@ db
 
 col = ["age","sex","bmi","bp_avg","s1","s2","s3","s4","s5","s6"]
 df_diabetes = pd.DataFrame(data=db, columns=col)
-
-df_diabetes
+df_diabetes['target'] = db.target
 
 # prompt: give me code to load data from google drive
 
