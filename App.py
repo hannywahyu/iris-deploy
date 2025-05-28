@@ -20,8 +20,8 @@ st.title("Selamat datang di Aplikasi")
 st.write("Aplikasi ini dibuat untuk demonstrasi proyek akhir Data Mining")
 
 # Load model
-with open("model.pkl", "rb") as f:
-    model = pickle.load(f)
+#with open("model.pkl", "rb") as f:
+ #   model = pickle.load(f)
 
 # Load Iris data
 iris = load_iris()
