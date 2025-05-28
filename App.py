@@ -13,7 +13,11 @@ import numpy as np
 import pickle
 from sklearn.datasets import load_iris
 
-st.title("Hello, world!")
+st.set_page_config(page_title="Iris Dashboard App", layout="centered')
+st.sidebar.header("Dashboard")
+
+st.title("Selamat datang di Aplikasi")
+st.write("Aplikasi ini dibuat untuk demonstrasi proyek akhir Data Mining")
 
 # Load model
 with open("model.pkl", "rb") as f:
