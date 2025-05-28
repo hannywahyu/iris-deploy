@@ -92,7 +92,7 @@ elif page == "About Naive Bayes":
     """)
 
 ### 🧠 Notes
-- Save your model as `model.pkl` using:
+- Save your model as `model.pkl` using: ^
   ```python
   import pickle
   pickle.dump(your_model, open("model.pkl", "wb"))
